@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo "Building the C++ program..."
+                    echo "Building the C++ program...
                     sh 'g++ -o PES1UG22AM188-1 main.cpp'  // Compile C++ file
                 }
             }
